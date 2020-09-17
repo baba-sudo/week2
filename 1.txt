@@ -1,0 +1,8 @@
+list = [n for n in range(1,28)]
+def move(list,sep):
+    for n in range(sep):
+        item = list.pop(0)
+        list.append(item)
+while len(list) > 2:
+    move(list, 2)
+    print('kill{}'.format(list.pop(0)))
