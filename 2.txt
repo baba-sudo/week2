@@ -1,0 +1,12 @@
+list = [n for n in range(1,28)]
+fin = list
+t=1
+index=0
+while(fin.__len__()!=2):
+    t+=1;
+    index=(index+2)%fin.__len__();
+    if(t%1==0):
+        fin.pop(index)
+        print(fin)
+        t=2; 
+print(fin[0])
