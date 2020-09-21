@@ -1,4 +1,4 @@
-list = [n for n in range(1,28)]
+list = [n for n in range(1,29)]
 def move(list,sep):
     for n in range(sep):
         item = list.pop(0)
