@@ -5,4 +5,5 @@ def move(list,sep):
         list.append(item)
 while len(list) > 2:
     move(list, 2)
-    print('kill{}'.format(list.pop(0)))
+    list.pop(0)
+print(list)
