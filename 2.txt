@@ -1,4 +1,4 @@
-list = [n for n in range(1,28)]
+list = [n for n in range(1,29)]
 fin = list
 t=1
 index=0
